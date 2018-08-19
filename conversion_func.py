@@ -47,7 +47,6 @@ def ipa_creation(word):
     word = re.sub(r"ੜ", "ɽ", word)
     word = re.sub(r"ੜ੍ਹ", "ɽʱ", word)
     word = re.sub(r"ਸ", "s", word)
-    word = re.sub(r"ਸ਼", "ş", word)
     word = re.sub(r"ਸ਼", "ʃ", word)	
     word = re.sub(r"ਤ", "t", word)
     word = re.sub(r"ਥ", "tʰ", word)
